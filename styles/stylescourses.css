@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+img.header_logo{
+    width: 10%;
+    height: 10%;
+
+}
+div.grid_main{
+    display: inline-grid;
+    grid-template-columns: 100px 150px 150px;
+    grid-template-columns: 50px;
+    justify-self: center;  
+    font-size: 8px; 
+    font-family: 'Inter', sans-serif;
+
+    font-size: calc(0.5vw + 1vw);
+margin-left: 2.5%;
+}
+div.grid_main2{
+    font-family: 'Inter', sans-serif;
+
+    display: inline-grid;
+    grid-template-columns: 100px 150px 150px;
+    grid-template-columns: 50px;
+    justify-self: center;  
+    font-size: calc(0.5vw + 1vw);
+margin-left: 10%;
+}
+
+div.header_all{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+
+}
+
+p.header_text_server{
+    margin-left: 1%;
+    font-size: calc(1vw + 2vw);
+    justify-content: left;
+    display: flex;
+    text-align: left;
+    
+}
+h1.courses_server{
+    letter-spacing: 8px;
+    text-align: center;
+     font-size: calc(0.5vw + 1vw);
+    font-weight: bold;
+}
+
+
+p.courses_main_text{
+    font-weight: bold;
+    font-size: calc(0.25vw + 00.5vws);
+}
+
+img{
+    display: inline-block;
+    width: 100%;
+}
+
+p.courses_active{
+    text-align: center;
+}
+div.courses_list{
+    font-weight: bold
+    ;
+}
+ul.list_advantages{
+    margin-left: 5%;
+        
+}
+
+p.text_copyright_reserved{
+    font-size: calc(0.5vw + 1vw);
+    color: gray;
+    opacity: 60%    ;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+}
+a{
+    text-decoration: none;
+    color: gray;
+}

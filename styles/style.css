@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+img.header_logo{
+    width: 10%;
+    height: 10%;
+
+}
+
+div.grid_main{
+    display: inline-grid;
+    grid-template-columns: 100px 150px 150px;
+    grid-template-columns: 50px;
+    justify-self: center;  
+    font-size: 8px; 
+    font-family: 'Inter', sans-serif;
+
+    font-size: calc(0.5vw + 1vw);
+margin-left: 2.5%;
+}
+div.grid_main2{
+    font-family: 'Inter', sans-serif;
+
+    display: inline-grid;
+    grid-template-columns: 100px 150px 150px;
+    grid-template-columns: 50px;
+    justify-self: center;  
+    font-size: calc(0.5vw + 1vw);
+margin-left: 10%;
+}
+
+div.header_all{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+
+}
+
+div.div_main{
+    font-family: 'Inter', sans-serif;
+}
+p.header_text_server{
+    margin-left: 1%;
+    font-size: calc(1vw + 2vw);
+    justify-content: left;
+    display: flex;
+    text-align: left;
+    
+}
+
+p.maintext_about{
+    text-align: center;
+    font-size: calc(1vw + 2vw);
+
+}
+
+img.main_img{
+    display: inline-block;
+    width: 100%;
+}
+
+ul.main_list{
+    margin: 3%;
+    padding: 2%;
+    margin-top: -2%;
+    font-size: calc(1.1vw + 1vh);
+}
+p.main_div_list_text{
+    /* display: inline-block; */
+    /* width: 10%; */
+    font-size: calc(1.1vw + 1vh);
+}
+img.main_list_img{
+    width: 20%;
+    height: 15%;
+    /* display: inline-block; */
+    float: right;
+
+}
+p.main_text_questions{
+    font-size: calc(1.1vw + 1.1vh);
+    display: inline-block;
+}
+span.span_text_questions{
+    color:  #935800;
+}
+
+p.type_education{
+    text-align: center;
+    margin-top: 5%;
+    font-size: calc(1.3vw + 1.1vh);
+}
+div.div_list_type_education{ 
+    font-size: calc(1vw + 0.4vw);
+}
+
+p.director_saying{
+    text-align: center;
+    font-size: calc(1.3vw + 1.1vh);
+}
+p.text_copyright_reserved{
+    font-size: calc(0.5vw + 1vw);
+    color: gray;
+    opacity: 60%    ;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    left: 0;
+}
+
+div.grid_2{
+    text-decoration: none;
+    color: gray;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
